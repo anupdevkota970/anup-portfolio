@@ -1,0 +1,36 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+
+# PHP dependencies (installed in Docker)
+vendor/
+
+# Node dependencies (installed in Docker)
+node_modules/
+
+# Local development files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Local generated files
+public/build/
+public/storage
+
+# Testing and development tools
+.phpunit.cache/
+.phpunit.result.cache
